@@ -25,7 +25,7 @@ function Contactmedia() {
                <div className="all-mediacontact">
                   <ul className="media-section">
                      <li>
-                        <a href="#">
+                        <a href="/">
                            <div className="mediaone">
                               <div className="media-icon">
                                  <img src={facebook} alt="" />
@@ -41,7 +41,7 @@ function Contactmedia() {
                         </div>
                      </li>
                      <li>
-                        <a href="#">
+                        <a href="/">
                            <div className="mediaone">
                               <div className="media-icon">
                                  <img src={Instagram} alt="" />
@@ -57,7 +57,7 @@ function Contactmedia() {
                         </div>
                      </li>
                      <li>
-                        <a href="#">
+                        <a href="/">
                            <div className="mediaone">
                               <div className="media-icon">
                                  <img src={Phone} alt="" />
@@ -73,7 +73,7 @@ function Contactmedia() {
                         </div>
                      </li>
                      <li>
-                        <a href="#">
+                        <a href="/">
                            <div className="mediaone">
                               <div className="media-icon">
                                  <img src={Twitter} alt="" />
