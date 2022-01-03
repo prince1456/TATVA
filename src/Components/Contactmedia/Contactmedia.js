@@ -1,14 +1,14 @@
 import React from "react";
-import './Contactmedia.scss'
-import { Container } from 'react-bootstrap'
-import './Contactmedia.scss'
-import contactpattern from "../../Assets/Images/servicetitlepattern.png"
-import facebook from '../../Assets/Images/Facebook.png'
-import Instagram from '../../Assets/Images/Instagram.png'
-import Phone from '../../Assets/Images/phone.png'
-import Twitter from '../../Assets/Images/Twitter.png'
-import Email from '../../Assets/Images/Email.png'
-import Border from '../../Assets/Images/border.png'
+import "./Contactmedia.scss";
+import { Container } from "react-bootstrap";
+import "./Contactmedia.scss";
+import contactpattern from "../../Assets/Images/servicetitlepattern.png";
+import facebook from "../../Assets/Images/Facebook.png";
+import Instagram from "../../Assets/Images/Instagram.png";
+import Phone from "../../Assets/Images/phone.png";
+import Twitter from "../../Assets/Images/Twitter.png";
+import Email from "../../Assets/Images/Email.png";
+import Border from "../../Assets/Images/border.png";
 
 function Contactmedia() {
    return (
@@ -89,13 +89,13 @@ function Contactmedia() {
                         </div>
                      </li>
                      <li>
-                        <a href="#">
+                        <a href="mailto:hello@tatvayoga.sg">
                            <div className="mediaone">
                               <div className="media-icon">
                                  <img src={Email} alt="" />
                               </div>
                               <p>Email</p>
-                              <span>enquiry@onewellness.com.sg</span>
+                              <span>hello@tatvayoga.sg</span>
                            </div>
                         </a>
                      </li>

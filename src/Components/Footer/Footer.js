@@ -9,7 +9,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faMapMarkerAlt, faMobileAlt } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import Whitelogo from '../../Assets/Images/whitelogo.png'
+import Whitelogo from "../../Assets/Images/whitelogo.png";
 
 function Footer() {
    return (
@@ -18,7 +18,9 @@ function Footer() {
             <div className="footer_main">
                <div className="brand_sec">
                   <div className="brand_logo">
-                     <img src={Whitelogo} alt="Whitelogo" />
+                     <a href="/">
+                        <img src={Whitelogo} alt="Whitelogo" />
+                     </a>
                   </div>
                   <p className="about_text">
                      It is a long established fact that a reader will be
@@ -127,11 +129,11 @@ function Footer() {
                         </a>
                      </li>
                      <li>
-                        <a href="mailto:eniquiry@onewellness.com.sg">
+                        <a href="mailto:hello@tatvayoga.sg">
                            <div className="icon_back">
                               <FontAwesomeIcon icon={faEnvelope} />
                            </div>
-                           <span>eniquiry@onewellness.com.sg</span>
+                           <span>hello@tatvayoga.sg</span>
                         </a>
                      </li>
                      <li>
@@ -140,8 +142,8 @@ function Footer() {
                               <FontAwesomeIcon icon={faMapMarkerAlt} />
                            </div>
                            <span>
-                              247A Victoria Street, Bugis Village,
-                              Singapore 188033
+                              247A Victoria Street, Bugis Village, Singapore
+                              188033
                            </span>
                         </a>
                      </li>

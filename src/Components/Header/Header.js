@@ -3,20 +3,19 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faMapMarkerAlt, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Mainlogo from '../../Assets/Images/mainlogo.png';
+import Mainlogo from "../../Assets/Images/mainlogo.png";
 import "./Header.scss";
 
 function Header() {
-   // const [active, setActive] = React.useState();
    return (
       <div className="header_wrap">
          <div className="top_header">
             <Container>
                <ul className="contact_list">
                   <li>
-                     <a href="mailto:eniquiry@onewellness.com.sg">
+                     <a href="mailto:hello@tatvayoga.sg">
                         <FontAwesomeIcon icon={faEnvelope} />
-                        <span>eniquiry@onewellness.com.sg</span>
+                        <span>hello@tatvayoga.sg</span>
                      </a>
                   </li>
                   <li>
@@ -57,16 +56,10 @@ function Header() {
                         <Nav.Link href="#liveclasses" className="live_classes">
                            <span></span>Live Classes
                         </Nav.Link>
-                        <Nav.Link
-                           href="#login"
-                           className="btn btn-primary"
-                        >
+                        <Nav.Link href="#login" className="btn btn-primary">
                            Login
                         </Nav.Link>
-                        <Nav.Link
-                           href="#register"
-                           className="btn btn-primary"
-                        >
+                        <Nav.Link href="#register" className="btn btn-primary">
                            Register
                         </Nav.Link>
                      </Nav>

@@ -3,12 +3,8 @@ import contactpattern from "../../Assets/Images/servicetitlepattern.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapMarkerAlt, faMobileAlt } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import './ContactUs.scss'
-import {
-   Container,
-   Row,
-   Col
-} from "react-bootstrap";
+import "./ContactUs.scss";
+import { Container, Row, Col } from "react-bootstrap";
 import Contactform from "../Contactform/Contactform";
 
 function ContactUs() {
@@ -45,11 +41,11 @@ function ContactUs() {
                               </a>
                            </li>
                            <li>
-                              <a href="mailto:eniquiry@onewellness.com.sg">
+                              <a href="mailto:hello@tatvayoga.sg">
                                  <div className="contact-icon">
                                     <FontAwesomeIcon icon={faEnvelope} />
                                  </div>
-                                 <span>enquiry@onewellness.com.sg</span>
+                                 <span>hello@tatvayoga.sg</span>
                               </a>
                            </li>
                            <li>
