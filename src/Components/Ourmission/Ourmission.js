@@ -26,7 +26,7 @@ function Ourmission() {
                </div>
                <div className="ourmission_main_content">
                   <div className="ourmission_text">
-                     <h2>Misson of One Wellness Fitness Club</h2>
+                     <h2>Misson of Tatva Yoga</h2>
                      <p>
                         We believe in the tangible and lasting changes to the
                         mind, body and spirit with the incorporation of a
@@ -35,8 +35,8 @@ function Ourmission() {
                         programmes.
                         <br />
                         <br />
-                        We believe in the tangible and lasting changes to
-                        the mind, body and spirit with the incorporation of a
+                        We believe in the tangible and lasting changes to the
+                        mind, body and spirit with the incorporation of a
                         fitness regime and aim to enhance the lifestyle.
                      </p>
                      <Button>Read More</Button>

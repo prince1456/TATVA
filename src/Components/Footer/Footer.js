@@ -151,7 +151,7 @@ function Footer() {
                </div>
             </div>
             <div className="right_reserved">
-               <p>© 2021 OnewellnessfitnessClub. All right reserved</p>
+               <p>©️ tatva yoga singapore all right reserved</p>
             </div>
          </Container>
       </div>
