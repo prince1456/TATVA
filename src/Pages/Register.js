@@ -12,10 +12,6 @@ function Register(props) {
 
    return (
       <div>
-         <script
-            src="https://widgets.mindbodyonline.com/javascripts/healcode.js"
-            type="text/javascript"
-         ></script>
          {mindBody && (
             <healcode-widget
                data-version="0.2"

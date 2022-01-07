@@ -117,18 +117,21 @@ function Ourteam() {
                         <div className="ourteam_card">
                            <div className="expert_name">
                               <h5>Jill</h5>
-                              <p>Yoga Therapy Teacher</p>
+                              <p>Bikram Yoga Teacher</p>
                            </div>
                            <div className="expert_image">
                               <img src={Expert3} alt="Expert3" />
                            </div>
                            <div className="expert_info">
                               <p>
-                                 Yogi’s forte is in the teaching of Yoga Therapy
-                                 to relieve the bodily disorders that are the
-                                 symptoms of our sedentary lifestyles and modern
-                                 diet. Yogi underwent rigorous classical
-                                 <a href="#readmore"> Read More...</a>
+                              Jill has been practicing yoga for 15 years.
+                              In 2013, she was certified to teach Bikram Yoga, which she loves for its holistic, 
+                              systemic approach to health and well-being. 
+                              <a href="#readmore"> Read More...</a>
+                              {/* She approaches it as a life-long  
+                              practice that has powerful mind-body benefits.
+                              Jill participated in 2014 Yoga Asana Championships, placing 2nd in Singapore.
+                              An experienced teacher, Jill classes are known to be peaceful with clear, strong instruction. */}
                               </p>
                            </div>
                            <div className="expert_social_media">
@@ -160,7 +163,7 @@ function Ourteam() {
                         <div className="ourteam_card">
                            <div className="expert_name">
                               <h5>Monika</h5>
-                              <p>Sport & Fitness Teacher</p>
+                              <p>Yoga, Pilates & Dance Teacher</p>
                            </div>
                            <div className="expert_image">
                               <img src={Expert4} alt="Expert4" />

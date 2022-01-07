@@ -52,9 +52,9 @@ function Header() {
                   <Navbar.Toggle aria-controls="basic-navbar-nav" />
                   <Navbar.Collapse id="basic-navbar-nav">
                      <Nav>
-                        <Nav.Link href="#timetable">Timetable</Nav.Link>
-                        <Nav.Link href="#packages">Packages</Nav.Link>
-                        <Nav.Link href="#teachertraining">
+                        <Nav.Link href="/timetable">Timetable</Nav.Link>
+                        <Nav.Link href="/packages">Packages</Nav.Link>
+                        <Nav.Link href="/teachertraining">
                            Teacher Training
                         </Nav.Link>
                         <Nav.Link href="/liveclasses" className="live_classes">

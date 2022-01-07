@@ -12,19 +12,12 @@ function Timetable(props) {
 
    return (
       <div>
-         <script
-            src="https://widgets.mindbodyonline.com/javascripts/healcode.js"
-            type="text/javascript"
-         ></script>
          {mindBody && (
-            <healcode-widget
-               data-version="0.2"
-               data-link-class="loginRegister"
-               data-site-id="60038"
-               data-mb-site-id="15934"
-               data-bw-identity-site="false"
-               data-type="account-link"
-               data-inner-html="Login"
+            <healcode-widget 
+            data-type="schedules" 
+            data-widget-partner="object" 
+            data-widget-id="0d137512de06" 
+            data-widget-version="1" 
             />
          )}
       </div>
