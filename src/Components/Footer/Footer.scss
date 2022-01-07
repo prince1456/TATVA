@@ -95,6 +95,13 @@
                 li {
                     padding: 6px 0;
 
+                    &>button {
+                        background-color: transparent;
+                        border: 0px;
+                        color: #fff;
+                        padding: 0;
+                    }
+
                     a {
                         color: #fff;
                         text-decoration: none;

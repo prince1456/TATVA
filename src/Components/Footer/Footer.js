@@ -1,4 +1,5 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Footer.scss";
@@ -12,15 +13,16 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import Whitelogo from "../../Assets/Images/whitelogo.png";
 
 function Footer() {
+   const history = useHistory();
    return (
       <div className="footer_wrap">
          <Container>
             <div className="footer_main">
                <div className="brand_sec">
                   <div className="brand_logo">
-                     <a href="/">
+                     <span onClick={() => history.push("/")}>
                         <img src={Whitelogo} alt="Whitelogo" />
-                     </a>
+                     </span>
                   </div>
                   <p className="about_text">
                      It is a long established fact that a reader will be
@@ -69,9 +71,9 @@ function Footer() {
                         </a>
                      </li>
                      <li>
-                        <a href="/contactus">
+                        <button onClick={() => history.push("contactus")}>
                            <span>Contact</span>
-                        </a>
+                        </button>
                      </li>
                      <li>
                         <a href="#packages">

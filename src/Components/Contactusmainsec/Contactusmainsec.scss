@@ -11,6 +11,7 @@
         border-radius: 8px;
         width: fit-content;
         padding: 18px 26px;
+
         @media (max-width: 768px) {
             padding: 10px 16px;
         }
@@ -20,6 +21,7 @@
             margin-bottom: 0px;
             font-size: 18px;
             line-height: 22px;
+
             @media (max-width: 768px) {
                 font-size: 16px;
             }
@@ -27,6 +29,7 @@
             a {
                 color: #000;
                 text-decoration: none;
+                cursor: pointer;
             }
         }
     }

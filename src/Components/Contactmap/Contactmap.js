@@ -26,7 +26,6 @@ function Contactmap() {
                         width="100%"
                         height="100%"
                         title="map_wrap"
-                        allowfullscreen=""
                         loading="lazy"
                      ></iframe>
                   </div>

@@ -1,12 +1,16 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faMapMarkerAlt, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Mainlogo from "../../Assets/Images/mainlogo.png";
+import Login from "../../Pages/Login";
+import Register from "../../Pages/Register";
 import "./Header.scss";
 
 function Header() {
+   const history = useHistory();
    return (
       <div className="header_wrap">
          <div className="top_header">
@@ -42,7 +46,7 @@ function Header() {
          <div className="main_header">
             <Navbar bg="light" expand="lg">
                <Container>
-                  <Navbar.Brand href="/">
+                  <Navbar.Brand onClick={() => history.push("/")}>
                      <img src={Mainlogo} alt="mainlogo" />
                   </Navbar.Brand>
                   <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -53,14 +57,14 @@ function Header() {
                         <Nav.Link href="#teachertraining">
                            Teacher Training
                         </Nav.Link>
-                        <Nav.Link href="#liveclasses" className="live_classes">
+                        <Nav.Link href="/liveclasses" className="live_classes">
                            <span></span>Live Classes
                         </Nav.Link>
-                        <Nav.Link href="#login" className="btn btn-primary">
-                           Login
+                        <Nav.Link className="btn btn-primary">
+                           <Login />
                         </Nav.Link>
-                        <Nav.Link href="#register" className="btn btn-primary">
-                           Register
+                        <Nav.Link className="btn btn-primary">
+                           <Register />
                         </Nav.Link>
                      </Nav>
                   </Navbar.Collapse>

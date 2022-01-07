@@ -1,8 +1,10 @@
 import React from "react";
 import { Button, Container } from "react-bootstrap";
+import { useHistory } from "react-router-dom";
 import "./Mainsection.scss";
 
 function Mainsection() {
+   const history = useHistory();
    return (
       <div className="main_section">
          <Container>
@@ -18,7 +20,12 @@ function Mainsection() {
                   </p>
                   <div className="btn_wrapper">
                      <Button variant="primary">See More</Button>
-                     <a className="btn btn-outline-light" href="/contactus" variant="outline-light">Contact Us</a>
+                     <Button
+                        variant="outline-light"
+                        onClick={() => history.push("contactus")}
+                     >
+                        See More
+                     </Button>
                   </div>
                </div>
             </div>

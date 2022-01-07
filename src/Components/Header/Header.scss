@@ -106,8 +106,19 @@
                         background-color: #018BCB;
                         border-color: #018BCB;
                         color: #fff;
-                        min-width: 100px;
+                        padding: 0;
                         margin-left: 20px;
+                        a{
+                            color: #fff;
+                            text-decoration: none;
+                            background-color: #018BCB;
+                            border-color: #018BCB;
+                            color: #fff;
+                            min-width: 100px;
+                            height: 40px;
+                            display: block;
+                            line-height: 40px;
+                        }
 
                         @media (max-width: 1199px) {
                             min-width: 75px;
