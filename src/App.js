@@ -6,7 +6,7 @@ import Timetable from "./Pages/Timetable";
 import Packages from "./Pages/Packages";
 import TeacherTraining from "./Pages/TeacherTraining";
 import Liveclasses from "./Pages/Liveclasses";
-
+import Getcontact from "./Pages/GetContact";
 function App() {
    return (
       <div>
@@ -22,6 +22,8 @@ function App() {
                   component={TeacherTraining}
                />
                <Route path="/liveclasses" exact component={Liveclasses} />
+               <Route path="/event" exact component={Getcontact} />
+               
             </Switch>
          </BrowserRouter>
       </div>

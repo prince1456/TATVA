@@ -66,7 +66,7 @@ function Footer() {
                         </a>
                      </li>
                      <li>
-                        <a href="#class">
+                        <a href="/class">
                            <span>Class</span>
                         </a>
                      </li>
@@ -76,7 +76,7 @@ function Footer() {
                         </button>
                      </li>
                      <li>
-                        <a href="#packages">
+                        <a href="/packages">
                            <span>Packages</span>
                         </a>
                      </li>
@@ -88,7 +88,7 @@ function Footer() {
                   </div>
                   <ul className="events_wrap_ul">
                      <li>
-                        <a href="#linkedin">
+                        <a href="/event">
                            <span>Events</span>
                         </a>
                      </li>
@@ -103,7 +103,7 @@ function Footer() {
                         </a>
                      </li>
                      <li>
-                        <a href="#twitter">
+                        <a href="/event">
                            <span>Mass Workout</span>
                         </a>
                      </li>

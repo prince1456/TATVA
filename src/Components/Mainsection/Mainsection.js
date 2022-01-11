@@ -19,12 +19,12 @@ function Mainsection() {
                      but also can control.
                   </p>
                   <div className="btn_wrapper">
-                     <Button variant="primary">See More</Button>
+                     <Button variant="primary" onClick={() => history.push("timetable")}>See More</Button>
                      <Button
                         variant="outline-light"
                         onClick={() => history.push("contactus")}
                      >
-                        See More
+                        Contact Us
                      </Button>
                   </div>
                </div>
